@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Team Showcase and Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-28 12:14+0000\n"
+"PO-Revision-Date: 2020-10-28 12:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.1"
+
+#: wp-team-showcase-and-slider.php:115
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: wp-team-showcase-and-slider.php:116
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/wp_tsas_functions.php:11 includes/tsas-post-type.php:12
+msgid "Add New Member"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:12 includes/tsas-post-type.php:13
+msgid "Edit Member"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:13 includes/tsas-post-type.php:14
+msgid "New Member"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:14 includes/tsas-post-type.php:15
+msgid "View Member"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:15 includes/tsas-post-type.php:16
+msgid "Search Members"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:16 includes/tsas-post-type.php:17
+msgid "No Member found"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:17 includes/tsas-post-type.php:18
+msgid "No Members found in Trash"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:20 includes/tsas-post-type.php:21
+msgctxt "admin menu"
+msgid "Team Showcase"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:49 includes/tsas-post-type.php:49
+msgid "Search Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:50 includes/tsas-post-type.php:50
+msgid "All Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:51 includes/wp_tsas_functions.php:52
+#: includes/tsas-post-type.php:51 includes/tsas-post-type.php:52
+msgid "Parent Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:53 includes/tsas-post-type.php:53
+msgid "Edit Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:54 includes/tsas-post-type.php:54
+msgid "Update Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:55 includes/tsas-post-type.php:55
+msgid "Add New Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:56 includes/tsas-post-type.php:56
+msgid "New Category Name"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:57 includes/tsas-post-type.php:57
+msgid "Category"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:98 includes/tsas-functions.php:78
+msgid "Image"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:149 includes/tsas-functions.php:142
+msgid "Team Showcase Category Shortcode"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:180 includes/tsas-functions.php:184
+msgid "Team Details"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:262 includes/tsas-functions.php:284
+msgid "Member Department"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:270 includes/tsas-functions.php:292
+msgid "Member Designation"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:278 includes/tsas-functions.php:300
+msgid "Skills"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:286 includes/tsas-functions.php:308
+msgid "Member Experience"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:298 includes/tsas-functions.php:329
+msgid "Social Details"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:379 includes/tsas-functions.php:431
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:387 includes/tsas-functions.php:439
+msgid "Google Link"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:395 includes/tsas-functions.php:447
+msgid "Linkedin Link"
+msgstr ""
+
+#: includes/wp_tsas_functions.php:402 includes/tsas-functions.php:454
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/tsas-functions.php:12
+msgid "Design 1"
+msgstr ""
+
+#: includes/tsas-functions.php:13
+msgid "Design 2"
+msgstr ""
+
+#: includes/tsas-functions.php:14
+msgid "Design 3"
+msgstr ""
+
+#: includes/admin/class-tsas-admin.php:35
+msgid "How it works, our plugins and offers"
+msgstr ""
+
+#: includes/admin/class-tsas-admin.php:35
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/class-tsas-admin.php:38
+msgid "Upgrade to PRO -  WP Team Showcase and Slider"
+msgstr ""
+
+#: includes/admin/class-tsas-admin.php:38
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:37
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:45
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:49
+msgid ""
+"Step-1: This plugin create a Team Showcase tab in WordPress menu section"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:50
+msgid ""
+"Step-2: Now, paste below shortcode in any post or page and your WP Team "
+"Showcase and Slider is ready !!!"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:57
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:60
+msgid "Team Showcase Grid"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:61
+msgid "Team Showcase Slider"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:72
+msgid "Gutenberg Support"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:80
+msgid "How it Work"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:84
+msgid "Step-1. Go to the Gutenberg editor of your page."
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:85
+msgid "Step-2. Search \"Team\" keyword in the Gutenberg block list."
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:86
+msgid ""
+"Step-3. Add any block of Team and you will find its relative options on the "
+"right end side."
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:98
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:106
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:107
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:108
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:119
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:137
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:160
+msgid "Go Premium "
+msgstr ""
+
+#: includes/admin/wp-tsas-how-it-work.php:161
+msgid "View PRO Demo "
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:180
+msgid "WPOS Blocks"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "WP Team Showcase and Slider - Features"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Team Showcase and Slider"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easy to add and display your employees, team members in Grid view, Slider "
+"view and in widget. Also work with Gutenberg shortcode block."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wponlinesupport.com/plugins/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com/"
+msgstr ""

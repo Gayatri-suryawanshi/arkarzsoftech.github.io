@@ -1,0 +1,1355 @@
+2021-02-22T04:36:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(8, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:37:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(9, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:38:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(10, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:39:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(47, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:39:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(49, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:41:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(50, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:41:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(51, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:43:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(52, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:43:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(53, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:45:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(54, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:45:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(55, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:47:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(56, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:49:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(57, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:49:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(58, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:51:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(59, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:51:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(60, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:53:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(61, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:53:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(62, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:55:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(63, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:55:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(64, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:56:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(65, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:56:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(66, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:57:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(67, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:58:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(68, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:59:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(69, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T04:59:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(70, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:07:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(71, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:10:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(72, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:10:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(73, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:11:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(74, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:12:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(75, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:12:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(76, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:13:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(77, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:14:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(78, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:15:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(79, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:15:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(80, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:16:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(81, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:17:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(82, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:17:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(83, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:54:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(85, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T05:54:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(86, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T09:48:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(87, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:54:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(88, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:54:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(89, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:55:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(90, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:56:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(91, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:57:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(92, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T10:59:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(93, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:00:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(94, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:00:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(95, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:01:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(96, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:03:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(97, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:03:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(98, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:04:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(99, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:05:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(100, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:06:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(101, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:09:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(102, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:10:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(103, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:10:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(104, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:11:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(105, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:11:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(106, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:12:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(107, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:15:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(108, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:17:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(109, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:17:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(110, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:20:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(111, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:21:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(112, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:21:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(113, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:23:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(115, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:25:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(116, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:27:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(117, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:28:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(118, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:28:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(119, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:29:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(120, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:30:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(121, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:31:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(84, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:31:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(122, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:33:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(123, 'WP Cron')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:33:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(124, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+
+2021-02-22T11:33:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(125, 'Async Request')
+#5 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\arkarz\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\arkarz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\arkarz\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\arkarz\wp-includes\class-wp-hook.php on line 287
+

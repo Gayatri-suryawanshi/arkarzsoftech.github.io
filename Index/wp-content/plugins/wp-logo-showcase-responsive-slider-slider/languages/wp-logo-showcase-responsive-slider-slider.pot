@@ -1,0 +1,424 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Logo Showcase Responsive Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 13:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.4"
+
+#: logo-showcase.php:123
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: logo-showcase.php:124
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/wpls-functions.php:72
+msgid "Design 1"
+msgstr ""
+
+#: includes/wpls-post-types.php:13
+msgid "Add New"
+msgstr ""
+
+#: includes/wpls-post-types.php:14
+msgid "Add New Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:15
+msgid "Edit Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:16
+msgid "New Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:17
+msgid "All Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:18
+msgid "View Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:19
+msgid "Search Logo Showcase"
+msgstr ""
+
+#: includes/wpls-post-types.php:20
+msgid "No Logo Showcase found"
+msgstr ""
+
+#: includes/wpls-post-types.php:21
+msgid "No Logo Showcase found in Trash"
+msgstr ""
+
+#: includes/wpls-post-types.php:22 includes/wpls-post-types.php:23
+msgid "Set logo image"
+msgstr ""
+
+#: includes/wpls-post-types.php:24
+msgid "Remove logo image"
+msgstr ""
+
+#: includes/wpls-post-types.php:26
+msgid "Logo Showcase"
+msgstr ""
+
+#: includes/admin/class-wpls-admin.php:44
+msgid "WP Logo Showcase Responsive Slider - Settings"
+msgstr ""
+
+#: includes/admin/class-wpls-admin.php:91
+msgid "Upgrade to PRO - Logo Showcase Responsive Slider"
+msgstr ""
+
+#: includes/admin/class-wpls-admin.php:91
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/class-wpls-admin.php:94
+#: includes/admin/settings/hire-us.php:83
+#: includes/admin/settings/hire-us.php:84
+#: includes/admin/settings/hire-us.php:85
+#: includes/admin/settings/hire-us.php:86
+msgid "Hire Us"
+msgstr ""
+
+#: includes/admin/class-wpls-admin.php:150
+msgid "Category Shortcode"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:22
+msgid "How it works, our plugins and offers"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:22
+#: includes/admin/wpls-how-it-work.php:118
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:103
+msgid ""
+"There was an error retrieving the data from the server. Please try again "
+"later."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:121
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:159
+msgid "How It Works - Display and shortcode"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:167
+msgid "Geeting Started with Logo Showcase"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:171
+msgid "Step-1. Go to \"Logo Showcase --> Add New\"."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:172
+msgid ""
+"Step-2. Add Logo title, logo link to redirect(if need) and logo image under "
+"featured image section."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:173
+msgid ""
+"Step-3. Display multiple logo showcase, create categories under \"Logo "
+"Showcase --> category\" and create categories."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:174
+msgid ""
+"Step-4. Assign logo showcase post to respective categories and use the "
+"category shortcode under \"Logo Showcase --> category\""
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:181
+msgid "How Shortcode Works"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:185
+msgid "Step-1. Create a page like Logoshose OR add the shortcode in any page."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:186
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:193
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:196
+msgid "Logo Showcase Slider Shortcode"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:197
+msgid "Logo Showcase Slider with center mode Shortcode"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:204
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:207
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:208
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:209
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:227
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:231
+msgid "15+ predefined template for logo showcase."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:232
+msgid "3 shortcodes [logoshowcase], [logo_grid] and [logo_filter]"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:233
+msgid "Drag & Drop order change"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:234
+msgid "Display logo showcase in a grid view."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:235
+msgid "Display logo with filtration."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:236
+msgid "Display logo showcase in slider view"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:237
+msgid "Display logo showcase in center mode view"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:238
+msgid "Logo Showcase With Ticker Mode"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:239
+msgid "2 Widgets- Slider and Grid view."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:240
+msgid "Display Logo with title and description"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:241
+msgid "Slider RTL support."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:242
+msgid "Display logo showcase categories wise."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:243
+msgid "Set image size for logo among WordPress image size."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:244
+msgid "Visual Composer support."
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:245
+msgid "Logo Showcase with tool-tip with 5 tool-tip theme"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:246
+msgid "Custom CSS option"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:247
+msgid "Fully responsive"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:248
+msgid "100% Multi language"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:250
+msgid ""
+"Gain access to <strong>Logo Showcase Responsive Slider</strong> included in "
+"<br /><strong>Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:251
+msgid "Go Premium "
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:252
+msgid "View PRO Demo "
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:263
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wpls-how-it-work.php:266
+#, php-format
+msgid ""
+"Enjoyed this plugin? You can help by rate this plugin <a href=\"%s\" "
+"target=\"_blank\">5 stars!"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:24
+msgid "Logo Link"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:28
+msgid "Enter link url for logo. i.e https://www.wponlinesupport.com"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:34
+msgid "Logo Description"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:34
+#: includes/admin/metabox/wpls-post-setting-metabox.php:46
+msgid "PRO"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:39
+msgid "Enter logo description using default wordpress content editor."
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:40
+#: includes/admin/metabox/wpls-post-setting-metabox.php:51
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\" target=\"_blank\">Premium Version</a> to get this "
+"option."
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:46
+msgid "Logo Image URL"
+msgstr ""
+
+#: includes/admin/metabox/wpls-post-setting-metabox.php:50
+msgid ""
+"Enter external URL of logo. If you don not want to use an image from your "
+"media gallery, you can set an URL for logo image here."
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:15
+msgid "Hire Us - Get unlimited expert WordPress Support and Development"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:18
+msgid "Highlight of Hiring:"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:20
+msgid "Hire once, get unlimited jobs done"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:21
+msgid "Quick ticket support, quick solution"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:22
+msgid "Any sort of WP work with no extra cost"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:23
+msgid "Dedicated expert working only for you!"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:62
+msgid "Hire us for 1 Hr"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:63
+msgid "$20 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:66
+msgid "Hire us for 5 Hrs"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:67
+msgid "$99 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:70
+msgid "Hire us for 30 Hrs"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:71
+msgid "$499 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:72
+msgid "Our most valuable package!"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:75
+msgid "Hire us for 70 Hrs"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:76
+msgid "$999 USD"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "Logo Showcase Responsive Slider - Features"
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:166
+msgid "WPOS Blocks"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Logo Showcase Responsive Slider"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easy to add and display Logo Showcase Responsive Slider on your website. "
+"Also added Gutenberg block support."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wponlinesupport.com/plugins/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com/"
+msgstr ""
